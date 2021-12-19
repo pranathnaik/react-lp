@@ -1,0 +1,50 @@
+.welcome-section {
+  display: flex;
+  justify-content: center;
+}
+.welcome-content {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.welcome-content .title {
+  font-size: 36px;
+  color: #374b5c;
+}
+.welcome-content .welcome-des {
+  font-size: 16px;
+  color: #374b5c;
+}
+.welcome-food {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 82px;
+  margin-bottom: 82px;
+}
+.food-container {
+  width: 240px;
+  height: 280px;
+  border-radius: 10px;
+  border: 1px dashed #374b5c;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.food-container:hover {
+  background-color: #00dbd0;
+  color: white;
+  border: none;
+}
+.food-title {
+  font-size: 18px;
+  font-weight: bold;
+  color: #374b5c;
+}
+.food-des {
+  color: #374b5c;
+  font-size: 14px;
+}

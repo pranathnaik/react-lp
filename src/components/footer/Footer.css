@@ -1,0 +1,46 @@
+.organic-footer {
+  display: flex;
+  justify-content: center;
+}
+.footer-image img {
+  width: 99vw;
+  margin-bottom: -30px;
+}
+.footer-image {
+  position: relative;
+}
+
+.footer-content {
+  position: absolute;
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  padding-top: 102px;
+}
+.footer-1 {
+  display: flex;
+  flex-direction: column;
+}
+.footer-1 .des {
+  margin-bottom: 32px;
+}
+
+.line {
+  width: 70px;
+  height: 2px;
+  border-radius: 50%;
+  background-color: #00dbd0;
+}
+
+.brand-text2 {
+  color: white;
+  margin-left: 9.5px;
+  font-weight: bold;
+  font-size: 42px;
+}
+
+.footer-2,
+.footer-3 {
+  margin-top: 25px;
+}
